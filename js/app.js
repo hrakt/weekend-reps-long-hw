@@ -192,3 +192,13 @@ console.log(myArray);
 myArray.reverse();
 console.log(myArray);
 
+// F. Biggie Smalls
+
+var int = 15;
+if(int < 100){
+    console.log("little number")
+}
+if(int > 100){
+    console.log("small number")
+}
+
