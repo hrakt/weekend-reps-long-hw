@@ -257,3 +257,18 @@ const kristynsCloset = [
 
   thomsCloset[1][2] = 'Footie Pajamas';
   
+
+//   IV. Functions
+
+// A. printGreeting
+
+// Do you think you could write a function called printGreeting with a 
+// parameter name that returns a greeting with the argument interpolated 
+// into the greeting?
+
+var printGreeting = function(str){
+    return "Hello " + str;
+}
+
+console.log(printGreeting('Slimer'));
+
