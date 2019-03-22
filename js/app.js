@@ -282,4 +282,9 @@ var printCool = function(str){
 console.log(printCool('Captain Reynolds'));
 
 
+// C. calculateCube
 
+const calculateCube = function(num){
+    return Math.pow(num,3);
+}
+console.log(calculateCube(5));
