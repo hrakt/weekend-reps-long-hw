@@ -202,3 +202,11 @@ if(int > 100){
     console.log("small number")
 }
 
+// G. Monkey in the Middle
+if(int<5){
+    console.log('little number');
+}else if(int>10){
+    console.log('big number');
+}else{
+    console.log('monkey');
+}
