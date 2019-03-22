@@ -176,4 +176,19 @@ ourClass.push('Cloud City');
 
 console.log(ourClass);
 
+// E. Mix It Up
+
+const myArray = [5, 10, 500, 20];
+
+myArray.push('Egon','Dorian');
+
+myArray.splice(0,1);
+
+myArray.unshift("Bob Marley");
+
+myArray.pop();
+console.log(myArray);
+
+myArray.reverse();
+console.log(myArray);
 
