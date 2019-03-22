@@ -133,4 +133,20 @@
 //Already done this
 
 
+// III. Arrays & Control flow
+
+// A. Talk about it:
+
+// What are the things in an array called?
+    // element of the array
+
+// Do Arrays guarantee those things will be in order?
+// no, its not guranteed, you can use sort() to sort an arry
+
+// What real-life thing could you model with an array?
+// the names of the people in the class, the numbers of the tables in a room
+
+
+
+
 
