@@ -104,28 +104,33 @@
 
 // C. Give me Five
 
-for(let i=0;i<=100;i++){
-    if(i%5==0 && i!=0){
-        console.log("I found a "+ i + ". High five!");
-    }
-    if(i%3 == 0 && i!=0){
-        console.log("I found a " + i+ ". There is a crowd.");
-    }
-}
+// for(let i=0;i<=100;i++){
+//     if(i%5==0 && i!=0){
+//         console.log("I found a "+ i + ". High five!");
+//     }
+//     if(i%3 == 0 && i!=0){
+//         console.log("I found a " + i+ ". There is a crowd.");
+//     }
+// }
 
 
-// D. Savings account
-let bank_account=0;
-for(let i = 0; i<=10;i++){
-    bank_account += i;
-}
-console.log(bank_account);
+// // D. Savings account
+// let bank_account=0;
+// for(let i = 0; i<=10;i++){
+//     bank_account += i;
+// }
+// console.log(bank_account);
 
 
-bank_account=0;
-for(let i = 0; i<=100;i++){
-    bank_account += i*2;
-}
-console.log(bank_account);
+// bank_account=0;
+// for(let i = 0; i<=100;i++){
+//     bank_account += i*2;
+// }
+// console.log(bank_account);
+
+// E. Multiples of 3 and 5
+
+//Already done this
+
 
 
