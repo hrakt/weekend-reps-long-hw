@@ -146,7 +146,23 @@
 // What real-life thing could you model with an array?
 // the names of the people in the class, the numbers of the tables in a room
 
+// B. Easy Does It
 
+var quotes = ["Don't cry because it's over, smile because it happened.","So many books, so little time.", 'You only live once, but if you do it right, once is enough.' ]
 
+// C. Accessing elements
 
+const randomThings = [1, 10, "Hello", true];
+
+// 1. How do you access the 1st element in the array?
+
+console.log(randomThings[0]);
+
+// 2. Change the value of `"Hello"` to `"World"`.
+
+randomThings[2]="World";
+
+// 3. Check the value of the array to make sure it updated the array. How? Why, yes! `console.log()`;
+
+console.log(randomThings[2]);
 
