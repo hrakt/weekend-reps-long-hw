@@ -420,3 +420,7 @@ const user = {
     age: 42,
     purhcase: []
 };
+
+user.email = "different@ga.com";
+user.age++;
+
