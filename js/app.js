@@ -485,3 +485,37 @@ const oldAndLoud =  function(person){
 oldAndLoud(user);
 console.log(user);
 
+// Hungry for More?
+// Cat Combinator
+// 1. Mama cat
+
+const cat1 = {
+    name:"Grumpy",
+    breed:"British Shorthair",
+    age: 6
+
+}
+
+console.log(cat1.name);
+console.log(cat1.breed);
+
+const cat2 = {
+    name: "Fluffy",
+    breed: "Persian cat",
+    age: 2
+}
+
+var combineCats = function(mama,papa){
+    console.log(mama);
+    console.log(papa);
+    let newObject = {
+        name: mama.name + papa.name,
+        age:1,
+        breed: mama.breed + "-" + papa.breed;
+        
+    }
+    return newObject;
+}
+
+combineCats(cat1,cat2);
+
