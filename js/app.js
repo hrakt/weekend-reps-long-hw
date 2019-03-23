@@ -310,3 +310,16 @@ const getTwoLengths = function(str1,str2){
 }
 
 console.log(getTwoLengths("Hank","Hippopopalous"));
+
+// F. getMultipleLengths
+
+const getMultipleLengths = function(arr){
+    let newArr =[];
+    for(let i= 0;i<arr.length;i++){
+        newArr.push((arr[i].length));
+    }
+    return newArr;
+}
+
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
