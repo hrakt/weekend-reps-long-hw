@@ -178,7 +178,7 @@
 
 // // E. Mix It Up
 
-// const myArray = [5, 10, 500, 20];
+const myArray = [5, 10, 500, 20];
 
 // myArray.push('Egon','Dorian');
 
@@ -266,120 +266,145 @@
 // parameter name that returns a greeting with the argument interpolated 
 // into the greeting?
 
-// B. printCool
+// // B. printCool
 
-var printGreeting = function(str){
-    return "Hello " + str;
+// var printGreeting = function(str){
+//     return "Hello " + str;
+// }
+
+// console.log(printGreeting('Slimer'));
+
+
+// var printCool = function(str){
+//     return str + ' is cool';
+// }
+
+// console.log(printCool('Captain Reynolds'));
+
+
+// // C. calculateCube
+
+// const calculateCube = function(num){
+//     return Math.pow(num,3);
+// }
+// console.log(calculateCube(5));
+
+// // D. isVowel
+
+// const isVowel = function(str){
+//     for(let i=0;i<str.length;i++){
+//         if(str[i]=='a' || str[i] == 'i'||str[i] == 'i' ||str[i] == 'o'||str[i] == 'u'){
+//             return true;
+//         }
+//         return false;
+//     }
+// }
+
+// console.log(isVowel('a'));
+
+// // E. getTwoLengths
+
+// const getTwoLengths = function(str1,str2){
+//     let arr = [str1.length,str2.length];
+//     return arr;
+// }
+
+// console.log(getTwoLengths("Hank","Hippopopalous"));
+
+// // F. getMultipleLengths
+
+// const getMultipleLengths = function(arr){
+//     let newArr =[];
+//     for(let i= 0;i<arr.length;i++){
+//         newArr.push((arr[i].length));
+//     }
+//     return newArr;
+// }
+
+// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// // G. maxOfThree
+
+// const maxOfThree = function(num1,num2,num3){
+//     let bigNum;
+//     if(num1<= num2){
+//         bigNum=num2
+//         if(bigNum<=num3){
+//             bigNum = num3;
+//         }
+//     }else{
+//         bigNum = num1;
+//         if(bigNum<=num3){
+//             bigNum = num3;
+//         }
+//     }
+//     return bigNum;
+// }
+
+// console.log(maxOfThree(6, 9, 1));
+
+// // H. printLongestWord
+
+// const printLongestWord = function(arr){
+//     let longest = "";
+//     let length = 0;
+//     for(let i = 0;i <arr.length;i++){
+//         if(arr[i].length > length){
+//             longest = arr[i];
+//             length = arr[i].length;
+//             console.log("longest word is "+ longest);
+//         }
+//     }
+//     return longest;
+// }
+
+// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+// // I. transmogrif
+
+// const transmogrify = function(num1,num2,num3){
+//     return Math.pow((num1*num2),num3);
+
+// }
+
+// console.log(transmogrify(5, 3, 2));
+
+// //J. reverseWordOrder v2
+
+
+// const reverseWordOrder = function(str){
+//     let newStr = "";
+//     let word= "";
+//     let arr = [];
+//     for(let i=0;i<=str.length;i++){
+//         if(str[i]==" " || i == str.length){
+//             arr.push(word);
+//             word = "";
+//         }else{
+//             word += str[i];
+//         }
+//     }
+//     for(let j = arr.length-1; j>=0;j--){
+//             newStr += arr[j] + " ";
+//     }
+//     return newStr;
+// }
+
+// console.log(reverseWordOrder("Ishmael me Call"));
+// console.log(reverseWordOrder("comb my on Lâncome use I"));
+
+
+// K. Get down and dirty with Math.random()
+
+const getRandom = function(min,max){
+    return Math.floor(Math.random() * max) + min;
 }
 
-console.log(printGreeting('Slimer'));
+console.log(getRandom(1,10));
+console.log(getRandom(10,100));
 
-
-var printCool = function(str){
-    return str + ' is cool';
+const getRamomElement = function(arr){
+    return arr[getRandom(0,arr.length)];
 }
 
-console.log(printCool('Captain Reynolds'));
-
-
-// C. calculateCube
-
-const calculateCube = function(num){
-    return Math.pow(num,3);
-}
-console.log(calculateCube(5));
-
-// D. isVowel
-
-const isVowel = function(str){
-    for(let i=0;i<str.length;i++){
-        if(str[i]=='a' || str[i] == 'i'||str[i] == 'i' ||str[i] == 'o'||str[i] == 'u'){
-            return true;
-        }
-        return false;
-    }
-}
-
-console.log(isVowel('a'));
-
-// E. getTwoLengths
-
-const getTwoLengths = function(str1,str2){
-    let arr = [str1.length,str2.length];
-    return arr;
-}
-
-console.log(getTwoLengths("Hank","Hippopopalous"));
-
-// F. getMultipleLengths
-
-const getMultipleLengths = function(arr){
-    let newArr =[];
-    for(let i= 0;i<arr.length;i++){
-        newArr.push((arr[i].length));
-    }
-    return newArr;
-}
-
-console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
-
-// G. maxOfThree
-
-const maxOfThree = function(num1,num2,num3){
-    let bigNum;
-    if(num1<= num2){
-        bigNum=num2
-        if(bigNum<=num3){
-            bigNum = num3;
-        }
-    }else{
-        bigNum = num1;
-        if(bigNum<=num3){
-            bigNum = num3;
-        }
-    }
-    return bigNum;
-}
-
-console.log(maxOfThree(6, 9, 1));
-
-// H. printLongestWord
-
-const printLongestWord = function(arr){
-    let longest = "";
-    let length = 0;
-    for(let i = 0;i <arr.length;i++){
-        if(arr[i].length > length){
-            longest = arr[i];
-            length = arr[i].length;
-            console.log("longest word is "+ longest);
-        }
-    }
-    return longest;
-}
-
-console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
-
-// I. transmogrif
-
-const transmogrify = function(num1,num2,num3){
-    return Math.pow((num1*num2),num3);
-
-}
-
-console.log(transmogrify(5, 3, 2));
-
-//J. reverseWordOrder v2
-
-
-const reverseWordOrder = function(str){
-    let newStr = ""
-    let arr = str.split(" ");
-    for(let j = arr.length-1; j>=0;j--){
-            newStr += arr[j] + " ";
-    }
-    return newStr;
-}
-
-console.log(reverseWordOrder("Ishmael me Call"));
-console.log(reverseWordOrder("comb my on Lâncome use I"));
+console.log(getRamomElement(myArray));
