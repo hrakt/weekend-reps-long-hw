@@ -368,3 +368,18 @@ const transmogrify = function(num1,num2,num3){
 }
 
 console.log(transmogrify(5, 3, 2));
+
+//J. reverseWordOrder v2
+
+
+const reverseWordOrder = function(str){
+    let newStr = ""
+    let arr = str.split(" ");
+    for(let j = arr.length-1; j>=0;j--){
+            newStr += arr[j] + " ";
+    }
+    return newStr;
+}
+
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("comb my on Lâncome use I"));
