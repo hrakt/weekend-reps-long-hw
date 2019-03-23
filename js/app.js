@@ -396,15 +396,27 @@ const myArray = [5, 10, 500, 20];
 
 // K. Get down and dirty with Math.random()
 
-const getRandom = function(min,max){
-    return Math.floor(Math.random() * max) + min;
-}
+// const getRandom = function(min,max){
+//     return Math.floor(Math.random() * max) + min;
+// }
 
-console.log(getRandom(1,10));
-console.log(getRandom(10,100));
+// console.log(getRandom(1,10));
+// console.log(getRandom(10,100));
 
-const getRamomElement = function(arr){
-    return arr[getRandom(0,arr.length)];
-}
+// const getRamomElement = function(arr){
+//     return arr[getRandom(0,arr.length)];
+// }
 
-console.log(getRamomElement(myArray));
+// console.log(getRamomElement(myArray));
+
+
+// Objects
+
+// A. Make a user object
+
+const user = {
+    name: 'Ishmael',
+    email: 'ishmael@ga.co',
+    age: 42,
+    purhcase: []
+};
