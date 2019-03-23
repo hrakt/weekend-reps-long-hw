@@ -453,3 +453,13 @@ console.log(user.friend.location);
 user.friend.age = 55;
 user.friend.purhcased.push('the ring','a latte');
 console.log(user.friend.purhcased[1]);
+
+// F. Loops
+
+for(let i = 0; i < user.purhcased.length;i++){
+    console.log(user.purhcased[i]);
+}
+
+for(let i = 0; i < user.friend.purhcased.length;i++){
+    console.log(user.friend.purhcased[i]);
+}
