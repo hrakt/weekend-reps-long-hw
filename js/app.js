@@ -418,7 +418,7 @@ const user = {
     name: 'Ishmael',
     email: 'ishmael@ga.co',
     age: 42,
-    purhcase: []
+    purhcased: []
 };
 
 // B. Update the user
@@ -430,3 +430,10 @@ user.age++;
 
 user.location = "LA";
 console.log(user);
+
+// D. Shopaholic!
+user.purhcased.push('carbohydrates');
+user.purhcased.push('peace of mind');
+user.purhcased.push('merino jodhpurs');
+
+console.log(user.purhcased[2]);
