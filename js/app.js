@@ -463,3 +463,25 @@ for(let i = 0; i < user.purhcased.length;i++){
 for(let i = 0; i < user.friend.purhcased.length;i++){
     console.log(user.friend.purhcased[i]);
 }
+
+
+// G. Functions can operate on objects
+
+console.log("\n");
+
+console.log(user);
+const updateUser =  function(){
+    user.age++;
+    user.name = user.name.toUpperCase();
+}
+
+// updateUser();
+
+const oldAndLoud =  function(person){
+    person.age++;
+    person.name = person.name.toUpperCase();
+}
+
+oldAndLoud(user);
+console.log(user);
+
