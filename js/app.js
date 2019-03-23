@@ -437,3 +437,19 @@ user.purhcased.push('peace of mind');
 user.purhcased.push('merino jodhpurs');
 
 console.log(user.purhcased[2]);
+
+// E. Object-within-object
+
+user.friend = {
+    name: 'Grace Hopper',
+    age: 85,
+    location: 'LA',
+    purhcased: []
+};
+
+
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age = 55;
+user.friend.purhcased.push('the ring','a latte');
+console.log(user.friend.purhcased[1]);
