@@ -288,3 +288,16 @@ const calculateCube = function(num){
     return Math.pow(num,3);
 }
 console.log(calculateCube(5));
+
+// D. isVowel
+
+const isVowel = function(str){
+    for(let i=0;i<str.length;i++){
+        if(str[i]=='a' || str[i] == 'i'||str[i] == 'i' ||str[i] == 'o'||str[i] == 'u'){
+            return true;
+        }
+        return false;
+    }
+}
+
+console.log(isVowel('dfe'));
