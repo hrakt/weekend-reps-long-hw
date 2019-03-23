@@ -300,4 +300,13 @@ const isVowel = function(str){
     }
 }
 
-console.log(isVowel('dfe'));
+console.log(isVowel('a'));
+
+// E. getTwoLengths
+
+const getTwoLengths = function(str1,str2){
+    let arr = [str1.length,str2.length];
+    return arr;
+}
+
+console.log(getTwoLengths("Hank","Hippopopalous"));
