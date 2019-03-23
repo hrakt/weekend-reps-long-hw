@@ -421,6 +421,12 @@ const user = {
     purhcase: []
 };
 
+// B. Update the user
+
 user.email = "different@ga.com";
 user.age++;
 
+// C. Adding keys and values
+
+user.location = "LA";
+console.log(user);
